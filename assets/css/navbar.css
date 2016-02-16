@@ -1,0 +1,45 @@
+body {
+	padding-top: 65px;
+}
+
+nav {
+	border-radius: 0px;
+	-webkit-box-shadow: -1px 6px 12px -5px rgba(77,75,77,1);
+	-moz-box-shadow: -1px 6px 12px -5px rgba(77,75,77,1);
+	box-shadow: -1px 6px 12px -5px rgba(77,75,77,1);
+}
+
+.navbar-default {
+	background-color: #009688;
+	border-color: #009688;
+	height: 65px;
+}
+
+.navbar-toggle {
+	background-color: white;
+	height: 46px;
+	border-color: #009688;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #009688;
+}
+
+.navbar-default .navbar-collapse {
+	background-color: #009688;
+	border-radius: 0px;
+	border-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	padding-top: 17px;
+	padding-left: 80px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	opacity: 0.7;
+}
